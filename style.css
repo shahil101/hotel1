@@ -299,7 +299,9 @@ body{
 
 }
 
-
+.offcanvas{
+ display: none;
+}
 .secondary-menu1{
   display: none;
 }
