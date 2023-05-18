@@ -299,6 +299,9 @@ body{
 
 }
 
+.ds-none{
+  display:none;
+}
 .offcanvas{
  display: none;
 }
