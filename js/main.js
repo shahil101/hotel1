@@ -11,9 +11,11 @@ var swiper = new Swiper(".mySwiper", {
     });
 
     let nav = document.querySelector(".navbar");
+    let chg = document.getElementById("chg")
     window.onscroll = function () {
       if (document.documentElement.scrollTop > 50) {
         nav.classList.add("bg-white");
+        chg.style.color = "black";
       }
     };
 
